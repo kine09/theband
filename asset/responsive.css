@@ -1,0 +1,61 @@
+@media (max-width:582px) {
+    .header {
+        overflow: hidden;
+    }
+
+    .header.header--res {
+        height: 230px;
+    }
+
+    .header__nav {
+        display: block;
+    }
+    .header__nav-link {
+        height: 46px;
+    }
+    .header__search {
+        display: none;
+    }
+
+    .band__member {
+        flex-direction: column;
+    }
+
+    .tour__content-place {
+        flex-direction: column;
+        padding: 24px 16px;
+    }
+
+    .tour__content-item {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .contact__form {
+        flex-direction: column;
+    
+    }
+
+    .contact__form-address {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .input-haft {
+        flex-direction: column;
+    }
+
+    .input-haft input:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .slider__box {
+        display: none;
+    }
+}
+
+@media (min-width:583px) {
+    .header__bar {
+        display: none;
+    }
+}

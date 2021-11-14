@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ==header== -->
+    <div class="header">
+        <div class="header__nav">
+            <div class="header__nav-item">
+                <a href="#" class="header__nav-link">home</a>
+            </div>
+            <div class="header__nav-item">
+                <a href="#band" class="header__nav-link">band</a>
+            </div>
+            <div class="header__nav-item">
+                <a href="#tour" class="header__nav-link">tour</a>
+            </div>
+            <div class="header__nav-item">
+                <a href="#contact" class="header__nav-link">contact</a>
+            </div>
+            <div class="header__nav-item other">
+                <a href="" class="header__nav-link">
+                    more
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <div class="other__box">
+                    <div class="other__box-child">
+                        <a href="">Merchandise</a>
+                    </div>
+                    <div class="other__box-child">
+                        <a href="">Extras</a>
+                    </div>
+                    <div class="other__box-child">
+                        <a href="">Media</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__search">
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="header__bar">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <!-- ==container== -->
+    <div class="container">
+        <!-- slider -->
+        <div id="slider" class="slider">
+            <img src="./img/chicago.jpg" alt="">
+            <div class="slider__box">
+                <h1>Chicago</h1>
+                <p>Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+        <!-- band -->
+        <div id="band" class="band">
+            <h1 class="band__heading heading">the band</h1>
+            <p class="band__subheading subheading">We love music</p>
+            <p class="band__intro">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="band__member">
+                <div class="band__member-item">
+                    <p class="band__member-name">Name</p>
+                    <img src="./img/bandmember.jpg" alt="" class="band__member-img">
+                </div>
+                <div class="band__member-item">
+                    <p class="band__member-name">Name</p>
+                    <img src="./img/bandmember.jpg" alt="" class="band__member-img">
+                </div>
+                <div class="band__member-item">
+                    <p class="band__member-name">Name</p>
+                    <img src="./img/bandmember.jpg" alt="" class="band__member-img">
+                </div>
+            </div>
+        </div>
+        <!-- tuor -->
+        <div id="tour" class="tour">
+            <div class="tour__box">
+                <h1 class="tour__heading heading">TOUR DATES</h1>
+                <p class="tour__subheading subheading">Remember to book your tickets!</p>
+                <div class="tour__content-date">
+                <div class="tour__content-mounth">
+                    <p>September</p>
+                    <span>Sold out</span>
+                </div>
+                <div class="tour__content-mounth">
+                    <p>October</p>
+                    <span>Sold out</span>
+                </div>
+                <div class="tour__content-mounth">
+                    <p>November</p>
+                    <span>3</span>
+                </div>
+                </div>
+                <div class="tour__content-place">
+                    <div class="tour__content-item">
+                        <img src="./img/tournewyork.jpg" alt="">
+                        <div class="tour__content-item-box">
+                            <h5>New York</h5>
+                            <span>Fri 27 Nov 2016</span>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn-ticket btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="tour__content-item">
+                        <img src="./img/tourparis.jpg" alt="">
+                        <div class="tour__content-item-box">
+                            <h5>Paris</h5>
+                            <span>Sat 28 Nov 2016</span>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn-ticket btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="tour__content-item">
+                        <img src="./img/toursanfran.jpg" alt="">
+                        <div class="tour__content-item-box">
+                            <h5>San Francisco</h5>
+                            <span>Sun 29 Nov 2016</span>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn-ticket btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contact" class="contact">
+            <div class="contact__box">
+                <h1 class="contact__heading heading">CONTACT</h1>
+                <p class="contact__subheading subheading">Fan? Drop a note!</p>
+                <div class="contact__form">
+                    <div class="contact__form-address">
+                        <div class="contact__form-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Chicago, US</p>
+                        </div>
+                        <div class="contact__form-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>Phone: +00 151515</p>
+                        </div>
+                        <div class="contact__form-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>Email: mail@mail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__form-email">
+                        <div class="input-haft">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <input type="text" class="input" placeholder="Message">
+                    </div>
+                </div>
+                
+                <div>
+                    <button class="contact__btn btn">SEND</button>
+                </div>
+            </div>
+        </div>
+        <!-- map -->
+        <div id="map" class="map">
+            <img src="./img/map.jpg" alt="">
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer__link">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-snapchat"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p class="footer__text">
+                Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp" class="footer__text-link">w3.css</a>
+            </p>
+            </div>
+        </div>
+    </div>
+    <!-- ==buyticket== -->
+    <div class="layout">
+        <div class="layout__box">
+            <div class="layout__header">
+                <div class="layout__header-item">
+                    <i class="fas fa-suitcase"></i>
+                    <p>Tickets</p>
+                </div>
+                <div class="layout__header-close btn-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="layout__container">
+                <div class="layout__content">
+                    <div class="layout__content-box">
+                        <span class="layout__content-box__title">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p>Tickets, $15 per person</p>
+                        </span>
+                        <input type="text" class="layout__content-box__input" placeholder="How many?">
+                    </div>
+                    <div class="layout__content-box">
+                        <span class="layout__content-box__title">
+                            <i class="fas fa-user"></i>
+                            <p>Send To</p>
+                        </span>
+                        <input type="text" class="layout__content-box__input" placeholder="Enter Email">
+                    </div>
+                    <button class="layout__content-btn">
+                        PAY
+                        <i class="fas fa-check"></i>
+                    </button>
+                </div>
+                <div class="layout__footer">
+                    <button class="layout__footer-btn btn-close">
+                        Close
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <p class="layout__footer-help">
+                        Need
+                        <a href="">help?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./asset/main.js"></script>
+</body>
+</html>
